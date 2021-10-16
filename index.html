@@ -7,7 +7,7 @@
     <title>Area of triangle</title>
 </head>
 <body>
-    <form onsubmit="submitForm()">
+    <form result onsubmit=" submitForm()">
         <h1>Area of a Triangle </h1>
         <br>
         <div>
@@ -33,6 +33,10 @@
             //alert('ok'+ number1);
             //alert('ok'+ number2);
             alert(' Triangle AREA is ='+parseInt(number1)*parseInt(number2)/2);
+            alert(result);
+            let result = parseInt(number1)*parseInt(number2)/2;
+
+            localStorage.setItem('result',result)
 
         }
        
